@@ -1,0 +1,89 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.btn-1{
+    background-color: #00c6f2;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    font-weight: bold;    
+}
+.x{
+ color: #00c6f2;
+}
+.t-1{
+     font-size: 1.5rem;
+}
+.text-area{
+    color: white;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+}
+.header{
+    background-image:url("https://images.pexels.com/photos/1260841/pexels-photo-1260841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.img-hero{
+    background-image: url("https://images.pexels.com/photos/12797726/pexels-photo-12797726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 40vh;
+    background-position: center ;
+    background-size: cover;
+}
+.overlay{
+    height: 40vh;
+    background-color: rgba(0,0,0,0.1);
+}
+.img-card{
+    height: 40vh;
+}
+.c-1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.overlay-c{
+    background-color: rgba(0,0,0,0.3);
+    height: 40vh;
+    position: absolute;
+    top: 0;    
+}
+.img-n{
+    height: 50vh;
+    width: 40vw;
+}
+.input{
+    height: 3.5rem;
+    width: 50vw;
+    border:3px solid #00c6f2;
+    border-radius: 5rem;
+    margin-bottom: 1.3rem;
+
+}
+ footer{
+    background-color: #1e2021;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 30vh;
+    padding-top: 3.5rem;
+}
+/* for the responsivness this media code is used */
+@media(max-width:600px){
+    .img-n{
+        display: none;
+    }
+}
